@@ -13,6 +13,8 @@
 # dstfile will be '.$srcfile' by default (with path removed)
 #
 [files]
+aliases
+curlrc
 dotsyncrc
 #bash_logout
 #bash_profile
@@ -25,7 +27,7 @@ gitattributes
 gitconfig
 gitignore
 hushlogin
-#inputrc
+inputrc
 #irssi
 #muttrc
 #procmailrc
