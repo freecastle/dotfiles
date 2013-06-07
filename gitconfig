@@ -92,5 +92,5 @@
 [difftool]
 	prompt = false
 
-[push]
-	default = simple
+#[push]
+#	default = simple

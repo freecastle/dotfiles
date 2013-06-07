@@ -3,4 +3,12 @@ startup_message off
 
 # Look and feel
 caption always "%{= 11}%{+b w}Screen: %n | %h %=%t %c"
+hardstatus on
 hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+
+# http://webadvent.org/2012/persistent-terminal-sessions-by-remy-sharp
+# Auto-detach session on hangup instead of terminating Screen.
+autodetach on
+
+# Enable log on all windows.
+deflog on
