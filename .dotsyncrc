@@ -24,9 +24,11 @@ dotsyncrc
 #ctags/ctags
 #cmus
 curlrc
+editorconfig.dist
 exports
 functions
 gitattributes
+gitattributes.dist
 gitconfig
 gitignore
 #git/tigrc
