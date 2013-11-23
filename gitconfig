@@ -78,9 +78,6 @@
 [hub]
 	protocol = https
 
-[credential]
-	helper = osxkeychain
-
 [mergetool]
 	keepBackup = false
 
@@ -91,4 +88,4 @@
 	prompt = false
 
 #[push]
-#	default = matching
+#	default = simple
