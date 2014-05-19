@@ -116,3 +116,10 @@ sudo mdutil -E / > /dev/null
 # Disable automatic emoji substitution (i.e. use plain text smileys)
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticEmojiSubstitutionEnablediMessage" -bool false
 
+###############################################################################
+# Chrome                                                                      #
+###############################################################################
+
+# Disable Swipe in Chrome: https://twitter.com/benschwarz/status/416366548513595392
+defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
+
