@@ -20,10 +20,10 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 sudo nvram SystemAudioVolume=" "
 
 # Expand save panel by default
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
 # Expand print panel by default
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
 # Save to disk (not to iCloud) by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
@@ -37,6 +37,13 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
 # Disable smart dashes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Expand the following File Info panes:
+# “General”, “Open with”, and “Sharing & Permissions”
+defaults write com.apple.finder FXInfoPanesExpanded -dict \
+	General -bool true \
+	OpenWith -bool true \
+	Privileges -bool true
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
