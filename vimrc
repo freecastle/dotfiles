@@ -1,4 +1,5 @@
 " Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
+set background=dark
 colorscheme molokai
 
 " Make Vim more useful
@@ -28,6 +29,9 @@ set directory=~/.vim/swaps
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
+
+" Don’t create backups when editing files in certain directories
+set backupskip=/tmp/*,/private/tmp/*
 
 " Respect modeline in files
 set modeline
