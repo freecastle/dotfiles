@@ -17,4 +17,4 @@ hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
 autodetach on
 
 # Enable log on all windows.
-deflog on
+# deflog on
