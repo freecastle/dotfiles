@@ -16,6 +16,7 @@
 # dstfile will be '.$srcfile' by default (with path removed)
 #
 [files]
+agignore
 aliases
 dotsyncrc
 #ack/ackrc
@@ -29,7 +30,7 @@ exports
 functions
 gitattributes
 gitattributes.dist
-gitconfig
+#DO NOT COMMIT gitconfig
 gitignore
 #git/tigrc
 #git/gitk
