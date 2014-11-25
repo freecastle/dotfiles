@@ -129,6 +129,7 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
+# http://www.windley.com/archives/2007/10/fixing_macbook_pro_sleep_problems.shtml
 
 # Disable local Time Machine snapshots
 #sudo tmutil disablelocal
